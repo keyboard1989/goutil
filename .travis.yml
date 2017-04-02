@@ -8,3 +8,4 @@ script:
 
 notifications:
   email: 923048755@qq.com
+  webhooks: https://hook.bearychat.com/=bw9Z8/travis/3041ad525fc3b35c3c2543c5402a60a2
