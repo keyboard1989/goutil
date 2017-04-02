@@ -9,6 +9,9 @@ services:
 install:
   - true
 
+berore_script:
+  - mkdir /tmp/logs
+
 script:
   go test ./... -v
 
