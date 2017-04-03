@@ -1,7 +1,7 @@
 {
 	"ImportPath": "github.com/keyboard1989/goutil",
 	"GoVersion": "go1.8",
-	"GodepVersion": "v75",
+	"GodepVersion": "v79",
 	"Packages": [
 		"./..."
 	],
