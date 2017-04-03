@@ -3,8 +3,17 @@ language: go
 go:
   - 1.7.1
 
+services:
+  - redis-server
+
+install:
+  - true
+
+berore_script:
+  - mkdir /tmp/logs
+
 script:
-  go test . -v
+  go test ./... -v
 
 notifications:
   email: 923048755@qq.com
