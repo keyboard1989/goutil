@@ -19,7 +19,7 @@ services:
 install:
   - true
 
-berore_script:
+before_script:
   - mysql -uroot -e 'create database test;'
   - mysql -uroot test < test/test.sql
   - mkdir /tmp/logs
