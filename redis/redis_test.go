@@ -14,6 +14,7 @@ func TestConnect(t *testing.T) {
 
 		Convey("test get", func() {
 			expectName := "zhangyong"
+			testRedis.Set("name", expectName)
 			name, _ := testRedis.Get("name")
 			So(name, ShouldEqual, expectName)
 		})

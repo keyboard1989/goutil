@@ -10,6 +10,7 @@ install:
   - true
 
 berore_script:
+  - export GO15VENDOREXPERIMENT=1
   - mkdir /tmp/logs
 
 script:
