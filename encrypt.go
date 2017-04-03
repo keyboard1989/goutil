@@ -2,6 +2,7 @@ package goutil
 
 import (
 	"crypto/md5"
+	"encoding/base64"
 	"encoding/hex"
 )
 
@@ -14,9 +15,10 @@ func Md5(str string) string {
 }
 
 func Base64Encode(str string) string {
-	return ""
+	s := []byte(str)
+	return base64.StdEncoding.EncodeToString(s)
 }
 
-func Base64Decode(str string) string {
-	return ""
+func Base64Decode(str string) ([]byte, error) {
+	return base64.StdEncoding.DecodeString(str)
 }
