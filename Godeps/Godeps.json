@@ -27,6 +27,10 @@
 			"Rev": "64858154c27789453689ac91041a736c89abd49d"
 		},
 		{
+			"ImportPath": "github.com/jinzhu/now",
+			"Rev": "d939ba741945c047cac69c329c5fb0d6b4a06520"
+		},
+		{
 			"ImportPath": "github.com/jmoiron/sqlx",
 			"Comment": "sqlx-v1.1-119-g8ed836a",
 			"Rev": "8ed836a8adb659e8492bcaa49e0880bb84075fe2"
