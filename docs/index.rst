@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-玉米广告-dsp对接文档
+ documentation for goutil
 ==================================================
 
 Contents:

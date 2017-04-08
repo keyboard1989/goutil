@@ -2,6 +2,10 @@
 
 [![Build Status](https://api.travis-ci.org/keyboard1989/goutil.svg?branch=master)](https://travis-ci.org/keyboard1989/goutil)
 
+## document site
+
+[http://goutil.readthedocs.io/](http://goutil.readthedocs.io/)
+
 ## Description
 
 goutil is just a collection of go common used method
