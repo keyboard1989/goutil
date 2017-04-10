@@ -69,6 +69,7 @@ func (s *Statistics) consume() {
 		}
 
 		ringStruct = ringStruct.Prev()
+		s.data[typeName][subType] = ringStruct
 		ringStruct.Value = Info{
 			Time: s.timeFunc(),
 			Data: map[string]uint64{key: 1},
