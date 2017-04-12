@@ -3,6 +3,8 @@ package goutil
 import (
 	"io/ioutil"
 	"os"
+	"path/filepath"
+	"strings"
 )
 
 // ListDirFiles is used to get all files in  one path
@@ -30,4 +32,24 @@ func ListDirFiles(dirPath string, suffix string) (interface{}, error) {
 	}
 	files[dirPath] = tempFiles
 	return files, nil
+}
+
+// IsFileExist is used to check file exist or not
+func IsFileExist(path string) bool {
+	_, err := os.Stat(path)
+	return err == nil || os.IsExist(err)
+}
+
+// IsDirExists is used to check dir is exist or not
+func IsDirExists(path string) bool {
+	fi, err := os.Stat(path)
+	if err != nil {
+		return os.IsExist(err)
+	}
+	return fi.IsDir()
+}
+
+// IsAbsolutePath is used to check path is absolute path
+func IsAbsolutePath(path string) bool {
+	return strings.HasPrefix(path, string(rune(filepath.Separator)))
 }
