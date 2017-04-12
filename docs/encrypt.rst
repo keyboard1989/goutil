@@ -38,7 +38,7 @@ Base64Decode
 
     //Usage
     str := YWJj
-    strBase64Decode, err := gotuil(str)
+    strBase64Decode, err := gotuil.Base64Decode(str)
     if err != nil {
         fmt.Println(strBase64Decode)
     }
