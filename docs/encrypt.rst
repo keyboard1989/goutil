@@ -3,9 +3,8 @@ Encrypt
 
 Md5
 ------
-Md5(str string) string
 
-Just make much easier to md5 stirng 
+.. note:: Md5(str string) string
 
 usage
 
