@@ -9,6 +9,7 @@ Md5
 Usage
 
 .. sourcecode:: go
+
     str := "abc"
     strMd5 := goutil.Md5(str)
     
