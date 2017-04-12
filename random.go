@@ -15,7 +15,7 @@ func GetRandInt() int {
 	return r.Int()
 }
 
-func GetResidueRandy(num int) int {
+func GetResidueRandom(num int) int {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	return r.Int() % num
 }
