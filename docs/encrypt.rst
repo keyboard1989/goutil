@@ -6,10 +6,8 @@ Md5
 
 .. note:: Md5(str string) string
 
-usage
-
+Usage
 .. sourcecode:: go
-
     str := "abc"
     strMd5 := goutil.Md5(str)
     
