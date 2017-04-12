@@ -18,6 +18,29 @@ Md5
 Base64Encode
 --------------
 
+.. note:: Base64Encode(str string) string
+
+.. sourcecode:: go
+
+    //Usage
+    str := abc
+    strBase64 := goutil.Base64Encode(str)
+
+    //result:YWJj
+
 
 Base64Decode
 -------------
+
+.. note:: Base64Decode(str string) ([]byte, error)
+
+.. sourcecode:: go
+
+    //Usage
+    str := YWJj
+    strBase64Decode, err := gotuil(str)
+    if err != nil {
+        fmt.Println(strBase64Decode)
+    }
+
+    //result:: abc
