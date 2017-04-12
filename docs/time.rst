@@ -27,7 +27,7 @@ GetDayRange
     end := "2017-01-31"
     format := "2006-01-02"
 
-    dayRange , err := goutil(start,end,format)
+    dayRange , err := goutil.GetDayRange(start,end,format)
     fmt.Println(dayRange)
 
     //result ["2017-01-01","2017-01-02",...,"2017-01-29","2017-01-30"]
