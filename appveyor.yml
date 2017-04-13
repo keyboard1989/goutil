@@ -1,6 +1,6 @@
 version: "{build}"
 skip_tags: true
-clone_folder: c:\gopath\src\github.com\gogits\gogs
+clone_folder: c:\gopath\src\github.com\keyboard1989/goutil
 clone_depth: 1
 
 environment:
