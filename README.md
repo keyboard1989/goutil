@@ -1,6 +1,6 @@
 # goutil
 
-[![Build Status](https://api.travis-ci.org/keyboard1989/goutil.svg?branch=master)](https://travis-ci.org/keyboard1989/goutil)
+[![Build Status](https://api.travis-ci.org/keyboard1989/goutil.svg?branch=master)](https://travis-ci.org/keyboard1989/goutil)[![Build status](https://ci.appveyor.com/api/projects/status/4os1f24lnul6r082?svg=true)](https://ci.appveyor.com/project/keyboard1989/goutil)
 
 ## document site
 
