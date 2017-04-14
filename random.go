@@ -19,3 +19,7 @@ func GetResidueRandom(num int) int {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	return r.Int() % num
 }
+
+func GetRanddomString(num int) string {
+	return ""
+}
